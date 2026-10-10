@@ -1,0 +1,42 @@
+# Loops in python.
+
+# While loop.
+# The while loop repeatedly executes a block of code as long as a given condition remains true .
+# it checks the condition before each iteration.
+
+# Syntax: 
+while condition:
+    # code block to execute
+
+
+
+Example:
+Print number from 0 to 3 
+    count = 0
+    while count < 4:
+    Print(count)
+
+# out put: 0 1 2 
+
+
+
+
+#  Nested Loops
+
+Loop inside another loop in nested.
+ This is that for every single time the outer loop runs,
+  the inner loop runs all ofits iteration.
+
+
+Uses: 
+  > Handling Multi-Diamentional data: Such as matrics , grids, or lists of lists.
+  > Complex iterations : Operations depends on multiple variables or dimentions.
+  >Patten generation: Creating pattern , such as in graphics or games.
+
+  Syntax: 
+    
+       outer loop:
+             inner loop:
+                # block of code inner loop.
+        # block of code for outer loop.        
+           
